@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgb(222, 117, 224);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+li span:hover {
+  color: #4CAF50;
+}
+
+li button {
+  background-color: #f44336;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
+
+div > button {
+  margin: 5px;
+  background-color: #2196F3;
+}
+
+div > button:hover {
+  background-color: #1976D2;
+}
+
+div > button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
